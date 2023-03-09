@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Header from './layouts/Header'
 import BerandaContent from "./BerandaContent";
+import ApiContent from "./ApiContent";
 import Footer from './layouts/Footer'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route path='/api' element={
           <>
             <Header/>
-            <BerandaContent/>
+            <ApiContent/>
             <Footer/>
           </>
         } />
