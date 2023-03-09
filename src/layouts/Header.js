@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import LogoDark from '../images/brand_logo.png'
-import LogoLight from '../images/logo-light.png'
 
 const Header = () => {
   function toggleMenu() {
@@ -20,7 +19,7 @@ const Header = () => {
       <div className="container">
         <Link to={'/'} className="logo">
           <img src={LogoDark} height="24" className="logo-light-mode" alt="" />
-          <img src={LogoLight} height="24" className="logo-dark-mode" alt="" />
+          <img src={LogoDark} height="24" className="logo-dark-mode" alt="" />
         </Link>
 
         <div className="menu-extras">
