@@ -10,6 +10,22 @@ body, *,
     color: #5A5A5A;
 }
 
+.bg-blue {
+    background-color: #049CFB;
+}
+
+.bg-green {
+    background-color: #00DE9C;
+}
+
+.bg-purple {
+    background-color: #5449D6;
+}
+
+.bg-50 {
+    padding: 50px 0;
+}
+
 .btn-contact {
     border-radius: 100px;
     color: #fff !important;
@@ -28,10 +44,6 @@ body, *,
     font-weight: 800;
 }
 
-/* .hero-section p {
-
-} */
-
 /* Services Section */
 .services-section .title {
     max-width: 400px;
@@ -48,18 +60,118 @@ body, *,
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #fff;
-    padding: 25px;
-    border-top-right-radius: 8px;
     width: 100%;
+    padding: 25px;
     max-width: 70%;
+    background-color: #fff;
+    border-top-right-radius: 8px;
 }
 
 .services-section .card-services .content h4 {
     max-width: 330px;
 }
 
+/* Collaborate Section */
+.collaborate-section {
+    padding-bottom: 100px;
+    margin-bottom: 300px;
+    background-color: rgba(4, 156, 251, 0.05);
+}
+
+.collaborate-section .collaborate-content {
+    padding-top: 50px;
+    margin-bottom: -290px;
+}
+
+.collaborate-section .card-collaborate {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.collaborate-section .card-collaborate .content {
+    color: #fff;
+    height: 100%;
+    min-height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.collaborate-section .card-collaborate .content .top-content {
+    padding: 25px;
+}
+
+.collaborate-section .card-collaborate .content .top-content h4 {
+    line-height: 150%;
+}
+
+.collaborate-section .card-collaborate .content .bottom-content {
+    background-color: #fff;
+    color: #5A5A5A;
+    padding: 25px;
+    display: flex;
+    gap: 24px;
+    max-width: 300px;
+    width: fit-content;
+    align-items: center;
+    border-top-right-radius: 8px;
+}
+
+.collaborate-section .card-collaborate .content .bottom-content .img-user {
+    max-width: 64px;
+}
+
+.collaborate-section .card-collaborate .content .bottom-content .user-info span {
+    font-size: 14px;
+}
+
+.collaborate-section .card-collaborate .bg-testimonial {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 190px;
+}
+
 /* Footer */
 .footer {
     background-color: rgba(4, 156, 251, 0.03);
+}
+
+.footer .copyright {
+    font-size: 11px;
+    color: #5A5A5A;
+}
+
+.footer .footer-head {
+    color: #5A5A5A;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer .text-foot {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5A5A5A;
+}
+
+.footer .social-wrap {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer .img-bg-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .footer .social-wrap {
+        justify-content: center;
+    }
 }
